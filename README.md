@@ -121,6 +121,3 @@ if (age >= 18) {
 
 Setelah Anda menguasai konsep dasar ini, Anda siap untuk mengeksplorasi lebih lanjut pemrograman JavaScript dan membangun aplikasi web yang lebih kompleks.
 
----
-
-Catatan: Tulisan di atas adalah contoh tutorial dasar pemrograman JavaScript. Anda dapat menyimpannya dalam file dengan ekstensi `.md` untuk membuat panduan yang mudah diakses dan dibagikan. Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya!
