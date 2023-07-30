@@ -118,6 +118,109 @@ if (age >= 18) {
     console.log("Anda masih anak-anak");
 }
 ```
+Untuk melengkapi pembelajaran dasar JavaScript, Anda dapat mempertimbangkan untuk menyertakan beberapa topik tambahan berikut:
+
+## 9. Fungsi (Functions)
+Fungsi digunakan untuk mengelompokkan kode yang dapat dipanggil dan digunakan kembali. Mereka membantu dalam mengorganisir kode dan menghindari pengulangan.
+
+```javascript
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+
+let message = greet("John");
+console.log(message); // Output: "Hello, John!"
+```
+
+## 10. Object dan Properti
+Objek adalah tipe data kompleks yang berisi kumpulan properti dan metode. Mereka digunakan untuk merepresentasikan entitas dalam aplikasi.
+
+```javascript
+let person = {
+    name: "John",
+    age: 30,
+    greet: function() {
+        return "Hello, my name is " + this.name + ".";
+    }
+};
+
+console.log(person.name); // Output: "John"
+console.log(person.greet()); // Output: "Hello, my name is John."
+```
+
+## 11. Metode String dan Array
+JavaScript memiliki banyak metode bawaan untuk memanipulasi string dan array dengan lebih mudah.
+
+```javascript
+let text = "Hello, world!";
+console.log(text.length); // Output: 13
+console.log(text.toUpperCase()); // Output: "HELLO, WORLD!"
+console.log(text.split(", ")); // Output: ["Hello", "world!"]
+
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers.length); // Output: 5
+console.log(numbers.reverse()); // Output: [5, 4, 3, 2, 1]
+console.log(numbers.join("-")); // Output: "5-4-3-2-1"
+```
+
+## 12. Event Handling
+JavaScript digunakan untuk menangani peristiwa (event) di halaman web, seperti klik tombol, pengisian formulir, dan lainnya.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling</title>
+</head>
+<body>
+    <button id="btn">Klik Saya!</button>
+
+    <script>
+        const button = document.getElementById("btn");
+        button.addEventListener("click", function() {
+            alert("Tombol telah diklik!");
+        });
+    </script>
+</body>
+</html>
+```
+
+## 13. DOM Manipulasi
+JavaScript memungkinkan Anda untuk memanipulasi struktur dan konten halaman web melalui DOM (Document Object Model).
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulasi</title>
+</head>
+<body>
+    <div id="myDiv">
+        <p>Hello, world!</p>
+    </div>
+
+    <script>
+        const myDiv = document.getElementById("myDiv");
+        const newParagraph = document.createElement("p");
+        newParagraph.textContent = "Halo semuanya!";
+        myDiv.appendChild(newParagraph);
+    </script>
+</body>
+</html>
+```
+
+## 14. Pengenalan ke ES6 (ECMAScript 2015) Features
+ES6 adalah versi terbaru dari standar JavaScript yang menyediakan banyak fitur baru yang meningkatkan kualitas kode dan produktivitas.
+
+Contoh:
+- Arrow function
+- Let dan const
+- Destructuring
+- Spread Operator
+
+## 15. Pengenalan ke Node.js dan NPM
+Node.js adalah lingkungan JavaScript di sisi server yang memungkinkan Anda menjalankan kode JavaScript di luar browser. NPM (Node Package Manager) adalah alat untuk mengelola paket dan dependensi JavaScript.
+
 
 Setelah Anda menguasai konsep dasar ini, Anda siap untuk mengeksplorasi lebih lanjut pemrograman JavaScript dan membangun aplikasi web yang lebih kompleks.
 
